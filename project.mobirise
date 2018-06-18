@@ -15,6 +15,8 @@
     },
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/logoasset-3-128x147.png",
+    "noImageResize": "",
     "versionFirst": "4.7.7",
     "uniqCompNum": 48,
     "versionPublish": "4.7.7"
