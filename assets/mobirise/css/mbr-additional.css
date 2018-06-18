@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+#features1-0 .mbr-section__col .mbr-header__text {
+  color: #7ac673;
+}
+#msg-box3-x .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #cccccc;
+  font-family: 'Noto Sans', sans-serif;
+}
+#msg-box3-x .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#footer1-16 P {
+  text-align: left;
+  color: #5e5e5e;
+}
+#form1-1a .mbr-header__text {
+  color: #efefef;
+}
