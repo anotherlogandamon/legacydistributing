@@ -3,6 +3,10 @@
 #features1-0 .mbr-section__col .mbr-header__text {
   color: #7ac673;
 }
+#features1-0 P {
+  color: #7ac673;
+  text-align: center;
+}
 #msg-box3-x .mbr-header .mbr-header__text {
   text-align: center;
   color: #cccccc;

@@ -18,7 +18,7 @@
     "favicon": "@PROJECT_PATH@/assets/images/logoasset-3-128x147.png",
     "noImageResize": "",
     "versionFirst": "4.7.7",
-    "uniqCompNum": 48,
+    "uniqCompNum": 50,
     "versionPublish": "4.7.7"
   },
   "pages": {
@@ -37,7 +37,7 @@
             "showHeader": false,
             "showSubheader": false,
             "showImages": true,
-            "showTitles": true,
+            "showTitles": false,
             "showCaptions": true,
             "showButtons": false,
             "paddingTop": "4",
@@ -103,7 +103,7 @@
             }
           },
           "title2": "<br>˅",
-          "caption2": "",
+          "caption2": "<br>˅",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media3": {
             "image": {
@@ -196,6 +196,10 @@
           "_styles": {
             ".mbr-section__col .mbr-header__text": {
               "color": "#7ac673"
+            },
+            "P": {
+              "color": "#7ac673",
+              "text-align": "center"
             }
           }
         },
@@ -408,7 +412,7 @@
         {
           "_params": {
             "paddingTop": 3,
-            "paddingBottom": "2",
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -416,21 +420,44 @@
             "bgColor": "#1b1b1b",
             "overlay": true,
             "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8,
-            "googleMap": {
-              "address": "2318 CANDLERIDGE E CIRCLE TWIN FALLS, ID 83301",
-              "placeId": "ChIJZfD-rYihrFQRHnLLsXgEIKA",
-              "state": "ok",
-              "stateDetails": ""
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-danger\">CONTACT US</a>",
+          "text1": "<b>| CONTACT |</b>",
+          "text2": "<ul class=\"mbr-contacts__list\"></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "ldamon@yandex.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
             }
           },
-          "text1": "<strong>ADDRESS</strong><br>2318 CANDLERIDGE E CIRCLE TWIN FALLS, ID 83301<br><br>\n<strong>CONTACT:</strong><br>+ 1 (208) 961 1300<br>+ 1 (208) 961 1300<br>",
-          "text2": "<p class=\"mbr-contacts__text\"><br></p><p class=\"mbr-contacts__text\"><br></p><p class=\"mbr-contacts__text\"><br></p><p class=\"mbr-contacts__text\"><br></p><p class=\"mbr-contacts__text\"><br></p><p class=\"mbr-contacts__text\"><br></p><p class=\"mbr-contacts__text\"><a class=\"mbr-contacts__link text-gray\" href=\"page1.html\" style=\"background-color: rgb(27, 27, 27);\">Email</a><br></p>",
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts2",
-          "_anchor": "contacts2-17"
+          "_name": "contacts3",
+          "_anchor": "contacts3-1c"
         },
         {
           "_params": {
@@ -484,9 +511,9 @@
           "title": "CONTACT LEGACY",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND</a>",
           "form": {
-            "action": "ldamon@yandex.com",
+            "action": "",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Thank you! "
             },
             "fields": {
               "name": {
