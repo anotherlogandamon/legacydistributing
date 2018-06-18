@@ -34,6 +34,8 @@
     },
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/updateasset-4-128x147.png",
+    "noImageResize": "",
     "versionFirst": "4.7.7",
     "uniqCompNum": 12,
     "versionPublish": "4.7.7"
